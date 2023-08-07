@@ -1,14 +1,10 @@
-import React from "react";
-import Profile from "./PortfolioContainer/Home/Profile/Profile";
-import Home from "./PortfolioContainer/Home/Home";
 import "./App.css";
+import PortfolioContainer from "./PortfolioContainer/PortfolioContainer";
 
 function App() {
   return (
     <div className="App">
-      <Home>
-        <Profile />
-      </Home>
+      <PortfolioContainer />
     </div>
   );
 }
