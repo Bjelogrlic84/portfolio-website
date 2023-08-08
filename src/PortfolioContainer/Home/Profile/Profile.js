@@ -34,7 +34,6 @@ export default function Profile() {
           </div>
           <div className="profile-details-role">
             <span className="primary-text">
-              {" "}
               <h1>
                 <Typical
                   loop={Infinity}
