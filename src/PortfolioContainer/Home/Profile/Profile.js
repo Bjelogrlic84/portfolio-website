@@ -13,7 +13,7 @@ export default function Profile() {
                 <i className="fa fa-facebook-square" />
               </a>
               <a href="#">
-                <i className="fa fa-google-plus-square" />
+                <i className="fa fa-github-square" />
               </a>
               <a href="#">
                 <i className="fa fa-instagram" />
