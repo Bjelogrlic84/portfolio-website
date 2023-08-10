@@ -92,3 +92,24 @@
   font-weight: 400;
   margin: 0;
 }
+
+@media (max-width: 700px) {
+  .footer-image img {    
+    height: 70px;
+}
+.footer-image {
+  
+  margin-top: -60px;
+}
+}
+
+@media only screen and (max-width: 466px){
+  .footer-image img {    
+    height: 50px;
+}
+.footer-image {
+  
+  margin-top: -50px;
+}
+
+}

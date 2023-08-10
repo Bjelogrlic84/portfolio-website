@@ -18,8 +18,9 @@ export default function Testimonial(props) {
     Animations.animations.fadeInScreen(props.id);
   };
 
-  const fadeInSubscription =
-    ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
+  const fadeInSubscription = ScrollService.currentScreenFadeIn.subscribe(
+    fadeInScreenHandler
+  );
 
   const options = {
     loop: true,
@@ -62,9 +63,9 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      I patronized Ehizeex and when He delivered, I honestly
-                      fell in love with the project He is a very honest guy and
-                      he delivers ontime.
+                      I patronized Ivan and when He delivered, I honestly fell
+                      in love with the project He is a very honest guy and he
+                      delivers ontime.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -98,9 +99,9 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      I patronized Ehizeex and when He delivered, I honestly
-                      fell in love with the project He is a very honest guy and
-                      he delivers ontime.
+                      I patronized Ivan and when He delivered, I honestly fell
+                      in love with the project He is a very honest guy and he
+                      delivers ontime.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -133,9 +134,9 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      I patronized Ehizeex and when He delivered, I honestly
-                      fell in love with the project He is a very honest guy and
-                      he delivers ontime.
+                      I patronized Ivan and when He delivered, I honestly fell
+                      in love with the project He is a very honest guy and he
+                      delivers ontime.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -168,9 +169,9 @@ export default function Testimonial(props) {
                   <div className="testi-comment">
                     <p>
                       <i className="fa fa-quote-left" />
-                      I patronized Ehizeex and when He delivered, I honestly
-                      fell in love with the project He is a very honest guy and
-                      he delivers ontime.
+                      I patronized Ivan and when He delivered, I honestly fell
+                      in love with the project He is a very honest guy and he
+                      delivers ontime.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
