@@ -47,10 +47,18 @@
   @media only screen and (max-width: 970px) {
     .header-hamburger {
       display: block;
+      color: var(--white);
+      position: absolute;
+      left: 20px;
+      font-size: 40px;
     }
     .header-parent {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; /* Adjust as needed */
+      height: 100%;
       width: 100%;
-      padding: 0 40px;
+      color: var(--white);
       position: relative;
     }
     .header-options {
@@ -82,5 +90,13 @@
     .show-hamburger-options {
       left: 0;
       opacity: 1;
+    }
+    .header-logo {
+      font-size: 50px;
+      font-family: "Poppins ExtraBold";
+      color: var(--white);
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
