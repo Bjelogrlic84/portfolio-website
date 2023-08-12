@@ -10,10 +10,24 @@ export default class ScrollService {
     window.addEventListener("scroll", this.checkCurrentScreenUnderViewPort);
   }
 
+  scrollToHireMe = () => {
+    let contactMeScreen = document.getElementById("ContactMe");
+    if (!contactMeScreen) return;
+
+    contactMeScreen.scrollIntoView({ behavior: "smooth" });
+  };
+
+  scrollToHome = () => {
+    let homeScreen = document.getElementById("Home");
+    if (!homeScreen) return;
+
+    homeScreen.scrollIntoView({ behavior: "smooth" });
+  };
+
   isElementInView = (elem, type) => {
     let rec = elem.getBoundingClientRect();
     let elementTop = rec.top;
-    let elementBottom = rec.Bottom;
+    let elementBottom = rec.bottom; // Ispravljeno ovo
 
     let partiallyVisible =
       elementTop < window.innerHeight && elementBottom >= 0;
@@ -31,6 +45,7 @@ export default class ScrollService {
         return false;
     }
   };
+
   checkCurrentScreenUnderViewPort = (event) => {
     if (!event || Object.keys(event).length < 1) return;
     for (let screen of TOTAL_SCREENS) {

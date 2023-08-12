@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
+
 import "./AboutMe.css";
 
 export default function AboutMe(props) {
@@ -54,7 +55,13 @@ export default function AboutMe(props) {
               {renderHighlight()}
             </div>
             <div className="about-me-options">
-              <button className="btn primary-btn"> Hire Me </button>
+              <button
+                className="btn primary-btn"
+                onClick={() => ScrollService.scrollService.scrollToHireMe()}
+              >
+                {" "}
+                Hire Me{" "}
+              </button>
               <a href="BjelogrlicIvan.pdf" download="Bjelogrlic Ivan.pdf">
                 <button className="btn highlighted-btn">Get Resume</button>
               </a>
