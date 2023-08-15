@@ -50,8 +50,9 @@
   background-color: #ff5823;
   border-radius: 50%;
 }
-.about-me-options .highlighted-btn {
-  margin: 0 0 0 30px;
+.about-me-options hlighted-btn {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*IPAD PRO RESPONSIVENESS*/
@@ -60,14 +61,9 @@
   .about-me-parent {
     width: 88%;
   }
-
-  .about-me-options .highlighted-btn {
-    margin: 0 0 0 0 !important;
-  }
 }
 @media only screen and (max-width: 898px) {
-  .about-me-options {
-    display: flex;
+  .about-me-options {    
     justify-content: space-around;
   }
   .about-me-profile {
